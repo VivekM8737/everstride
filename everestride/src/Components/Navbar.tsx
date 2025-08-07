@@ -1,0 +1,40 @@
+import { FaFacebookF, FaInstagram, FaLinkedinIn, FaTwitter, FaYoutube, FaEmail } from "./react-icons/FaFacebook"; 
+// import { HiOutlineMail } from "react-icons/hi";
+import everestlogo from "../assets/logo/everestridelogo.png"
+
+const Navbar = () => {
+  return (
+    <div className="bg-white shadow-md fixed top-0 left-0 right-0 z-50">
+      <div className="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
+        {/* Logo */}
+        <div className="flex items-center space-x-2">
+          <img src={everestlogo} alt="Logo" className="h-10" />
+          <div className="text-xl font-semibold text-gray-800">
+            <div>Everest Ride</div>
+          </div>
+        </div>
+
+        {/* Navigation Links */}
+        <div className="space-x-8 text-gray-700 font-medium hidden md:flex">
+          <a href="#" className="hover:text-blue-700">Home</a>
+          <a href="#" className="hover:text-blue-700">Athletes</a>
+          <a href="#" className="hover:text-blue-700">Events</a>
+          <a href="#" className="hover:text-blue-700">Marketing</a>
+          <a href="#" className="hover:text-blue-700">About</a>
+        </div>
+
+        {/* Social Icons */}
+        <div className="flex space-x-4 text-blue-900 text-lg">
+          <FaInstagram />
+          <FaFacebookF />
+          <FaTwitter />
+          <FaLinkedinIn />
+          <FaYoutube />
+          <FaEmail />
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Navbar;
