@@ -9,7 +9,7 @@ const FaFacebookF= ()=>{
         <>
             <div className="fa w-8">
                 <a href="https://www.facebook.com">
-                    <img src={facebookIcon} alt="facebooke" />
+                    <img src={facebookIcon} alt="facebooke"  className=" w-8 hover:border-3 hover:border-blue-500 transition-all duration-200 rounded"/>
 
                 </a>
 
@@ -22,8 +22,8 @@ const FaInstagram = ()=>{
      return(
         <>
             <div className="fa w-8">
-                <a href="https://www.facebook.com"> 
-                    <img src={instagramIcon} alt="instagram" />
+                <a href="https://www.instagram.com"> 
+                    <img src={instagramIcon} alt="instagram" className=" w-8 hover:border-3 hover:border-blue-500 transition-all duration-200 rounded"/>
 
                 </a>
 
@@ -36,7 +36,7 @@ const FaLinkedinIn = ()=>{
         <>
             <div className="fa w-8">
                 <a href="https://www.facebook.com"> 
-                    <img src={linkedinIcon} alt="linkedIn" />
+                    <img src={linkedinIcon} alt="linkedIn" className=" w-8 hover:border-3 hover:border-blue-500 transition-all duration-200 rounded"/>
 
                 </a>
 
@@ -49,7 +49,7 @@ const FaTwitter = ()=>{
         <>
             <div className="fa w-8">
                 <a href="https://www.facebook.com"> 
-                    <img src={twitter} alt="twitter" />
+                    <img src={twitter} alt="twitter" className=" w-8 hover:border-3 hover:border-blue-500 transition-all duration-200 rounded" />
 
                 </a>
 
@@ -62,7 +62,7 @@ const FaYoutube = ()=>{
         <>
             <div className="fa w-8">
                 <a href="https://www.facebook.com"> 
-                    <img src={youtubeIcon} alt="youtube" />
+                    <img src={youtubeIcon} alt="youtube" className=" w-8 hover:border-3 hover:border-blue-500 transition-all duration-200 rounded"/>
 
                 </a>
 
@@ -75,7 +75,7 @@ const FaEmail = ()=>{
         <>
             <div className="fa w-8">
                 <a href="https://www.facebook.com"> 
-                    <img src={emailIcon} alt="email" />
+                    <img src={emailIcon} alt="email" className=" w-8 hover:border-3 hover:border-blue-500 transition-all duration-200 rounded"/>
 
                 </a>
 

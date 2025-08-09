@@ -4,13 +4,13 @@ import everestlogo from "../assets/logo/everestridelogo.png"
 
 const Navbar = () => {
   return (
-    <div className="bg-white shadow-md fixed top-0 left-0 right-0 z-50">
+    <div className="bg-white/80 shadow-md fixed top-0 left-0 right-0 z-50">
       <div className="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
         {/* Logo */}
         <div className="flex items-center space-x-2">
-          <img src={everestlogo} alt="Logo" className="h-10" />
+          <img src={everestlogo} alt="Logo" className="h-15" />
           <div className="text-xl font-semibold text-gray-800">
-            <div>Everest Ride</div>
+            <div>EVERSTRIDE</div>
           </div>
         </div>
 
