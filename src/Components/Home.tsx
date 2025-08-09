@@ -29,7 +29,7 @@ const Home = () => {
                         <p className="text-gray-700 leading-relaxed text-justify">
                             To achieve this, we work together with the best athletes and world-class partners.{" "}
                             <span className="font-semibold text-blue-900">
-                                Together we are #TeamGSC.
+                                Together we are #TeamEverstride.
                             </span>
                         </p>
                     </div>
