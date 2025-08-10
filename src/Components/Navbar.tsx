@@ -1,13 +1,10 @@
-import { FaFacebookF, FaInstagram, FaLinkedinIn, FaTwitter, FaYoutube, FaEmail } from "./react-icons/FaFacebook"; 
+
 // import { HiOutlineMail } from "react-icons/hi";
 import everestlogo from "../assets/logo/everestridelogo.png"
-import {
-    Link,
-    // eslint-disable-next-line 
-} from "react-router-dom";
+
 import SocialIcons from "./Socialicons";
 
-import React, { useState } from "react";
+import { useState } from "react";
 
 
 import NavLinks from "./Navlinkes";

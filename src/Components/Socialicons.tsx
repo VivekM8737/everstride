@@ -10,6 +10,7 @@ export default function SocialIcons({ className = "" }: { className?: string }) 
       <FaTwitter />
       <FaLinkedinIn />
       <FaYoutube />
+      <FaEmail />
       {/* <HiOutlineMail /> */}
     </div>
   );
