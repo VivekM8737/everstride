@@ -5,11 +5,20 @@ import {
     Link,
     // eslint-disable-next-line 
 } from "react-router-dom";
+import SocialIcons from "./Socialicons";
+
+import React, { useState } from "react";
+
+
+import NavLinks from "./Navlinkes";
 
 const Navbar = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
   return (
     <div className="bg-white/80 shadow-md fixed top-0 left-0 right-0 z-50">
       <div className="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
+        
         {/* Logo */}
         <div className="flex items-center space-x-2">
           <img src={everestlogo} alt="Logo" className="h-15" />
@@ -18,25 +27,56 @@ const Navbar = () => {
           </div>
         </div>
 
-        {/* Navigation Links */}
+        {/* Desktop Nav */}
         <div className="space-x-8 text-gray-700 font-medium hidden md:flex">
-          <Link className="hover:text-blue-700" to="/">Home</Link>
-          <Link className="hover:text-blue-700" to="/services">Lineup</Link>
-          
-          
-          <a href="#" className="hover:text-blue-700">About</a>
+          <NavLinks />
         </div>
 
         {/* Social Icons */}
-        <div className="flex space-x-4 text-blue-900 text-lg">
-          <FaInstagram />
-          <FaFacebookF />
-          <FaTwitter />
-          <FaLinkedinIn />
-          <FaYoutube />
-          <FaEmail />
+         <div className="hidden md:flex">
+          <SocialIcons />
         </div>
+
+        {/* Mobile Hamburger */}
+        <button
+          onClick={() => setIsOpen(true)}
+          className="md:hidden p-2 text-gray-700"
+        >
+          ☰
+        </button>
       </div>
+
+      {/* Mobile Sidebar */}
+      {isOpen && (
+        <>
+          {/* Overlay */}
+          <div
+            className="fixed inset-0 bg-black bg-opacity-50 z-40"
+            onClick={() => setIsOpen(false)}
+          ></div>
+
+          {/* Sidebar */}
+          <div
+            className={`fixed top-0 left-0 h-full w-64 bg-white shadow-lg transform ${
+              isOpen ? "translate-x-0" : "-translate-x-full"
+            } transition-transform duration-300 ease-in-out z-50`}
+          >
+            <button
+              onClick={() => setIsOpen(false)}
+              className="p-4 text-gray-700 font-bold"
+            >
+              ✕
+            </button>
+            <nav className="flex flex-col space-y-4 p-4">
+              <NavLinks onClick={() => setIsOpen(false)} />
+            </nav>
+            {/* Push social icons to bottom */}
+            <div className="mt-auto p-4">
+              <SocialIcons />
+            </div>
+          </div>
+        </>
+      )}
     </div>
   );
 };
