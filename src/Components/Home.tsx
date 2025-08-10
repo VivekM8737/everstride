@@ -1,5 +1,5 @@
 const Home = () => {
-    const headerImage="https://res.cloudinary.com/dx5zqc2fc/image/upload/v1754831936/headerImage_c5nuag.jpg"
+    const headerImage="https://res.cloudinary.com/dx5zqc2fc/image/upload/v1754832413/headerImage_c5nuag.jpg"
     return (
         <>
             <section className="w-full h-170">
