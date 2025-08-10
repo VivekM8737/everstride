@@ -1,5 +1,5 @@
-import headerImage from "../assets/homeImages/headerImage.jpg"
 const Home = () => {
+    const headerImage="https://res.cloudinary.com/dx5zqc2fc/image/upload/v1754824631/headerImage_c5nuag.jpg"
     return (
         <>
             <section className="w-full h-170">

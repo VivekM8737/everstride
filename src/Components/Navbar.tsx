@@ -1,6 +1,10 @@
 import { FaFacebookF, FaInstagram, FaLinkedinIn, FaTwitter, FaYoutube, FaEmail } from "./react-icons/FaFacebook"; 
 // import { HiOutlineMail } from "react-icons/hi";
 import everestlogo from "../assets/logo/everestridelogo.png"
+import {
+    Link,
+    // eslint-disable-next-line 
+} from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -16,10 +20,10 @@ const Navbar = () => {
 
         {/* Navigation Links */}
         <div className="space-x-8 text-gray-700 font-medium hidden md:flex">
-          <a href="#" className="hover:text-blue-700">Home</a>
-          <a href="#" className="hover:text-blue-700">Athletes</a>
-          <a href="#" className="hover:text-blue-700">Events</a>
-          <a href="#" className="hover:text-blue-700">Marketing</a>
+          <Link className="hover:text-blue-700" to="/">Home</Link>
+          <Link className="hover:text-blue-700" to="/services">Lineup</Link>
+          
+          
           <a href="#" className="hover:text-blue-700">About</a>
         </div>
 
