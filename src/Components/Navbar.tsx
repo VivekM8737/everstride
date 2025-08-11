@@ -5,11 +5,11 @@ import everestlogo from "../assets/logo/everestridelogo.png"
 import SocialIcons from "./Socialicons";
 
 import { useState } from "react";
-
+import {Link } from "react-router-dom";
 
 import NavLinks from "./Navlinkes";
 
-const Navbar = () => {
+const Navbar = ({ onClick }: { onClick?: () => void }) => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
@@ -17,12 +17,12 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
         
         {/* Logo */}
-        <div className="flex items-center space-x-2">
-          <img src={everestlogo} alt="Logo" className="h-15" />
+        <Link to="/" onClick={onClick} className="flex items-center space-x-2">
+          <img src={everestlogo} alt="Logo" className="h-20 m-0" />
           <div className="text-xl font-semibold text-gray-800">
             {/* <x */}
           </div>
-        </div>
+        </Link>
 
         {/* Desktop Nav */}
         <div className="space-x-8 text-gray-700 font-medium hidden md:flex">
