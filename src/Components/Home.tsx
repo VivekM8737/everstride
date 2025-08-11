@@ -1,9 +1,10 @@
+import headerImage from "../assets/homeImages/headerImage.jpg"
 const Home = () => {
-    const headerImage="https://res.cloudinary.com/dx5zqc2fc/image/upload/v1754832413/headerImage_c5nuag.jpg"
+    
     return (
         <>
-            <section className="w-full h-170">
-                <img src={headerImage} alt="headerImage" className="w-full max-w-none object-cover h-170" />
+            <section className="w-full h-110">
+                <img src={headerImage} alt="headerImage" className="w-full max-w-none object-cover h-110" />
             </section>
 
             <section className="bg-white py-12 px-6 md:px-16">

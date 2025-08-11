@@ -20,13 +20,13 @@ const Navbar = () => {
         <div className="flex items-center space-x-2">
           <img src={everestlogo} alt="Logo" className="h-15" />
           <div className="text-xl font-semibold text-gray-800">
-            <div>EVERSTRIDE</div>
+            {/* <x */}
           </div>
         </div>
 
         {/* Desktop Nav */}
         <div className="space-x-8 text-gray-700 font-medium hidden md:flex">
-          <NavLinks />
+          <NavLinks/>
         </div>
 
         {/* Social Icons */}
