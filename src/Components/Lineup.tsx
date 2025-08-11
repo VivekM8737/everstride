@@ -19,7 +19,7 @@ const Lineup = () => {
             </section>
 
             {/* Navigation */}
-            <section className="bg-white py-12">
+            <section className="bg-white py-3">
                 <div
                     className={`flex ${activeSection === "strategic"
                             
