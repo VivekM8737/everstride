@@ -1,10 +1,33 @@
-import headerImage from "../assets/homeImages/headerImage.jpg"
+import headerImage1 from "../assets/homeImages/headerImage1.jpg";
+import headerImage2 from "../assets/homeImages/headerImage2.jpg";
+import headerImage3 from "../assets/homeImages/headerImage3.jpg";
+import { useState, useEffect } from "react";
 const Home = () => {
-    
+    const images = [headerImage1, headerImage2, headerImage3];
+
+
+    const [currentIndex, setCurrentIndex] = useState(0);
+
+    useEffect(() => {
+        const interval = setInterval(() => {
+            setCurrentIndex((prevIndex) =>
+                prevIndex === images.length - 1 ? 0 : prevIndex + 1
+            );
+        }, 4000); // 4 seconds
+        return () => clearInterval(interval);
+    }, [images.length]);
     return (
         <>
-            <section className="w-full h-110">
-                <img src={headerImage} alt="headerImage" className="w-full max-w-none object-cover h-110" />
+            <section className="w-full h-120 overflow-hidden relative">
+                {images.map((image, index) => (
+                    <img
+                        key={index}
+                        src={image}
+                        alt={`Slide ${index}`}
+                        className={`w-full h-120 object-cover absolute top-0 left-0 transition-opacity duration-3000 ease-in-out ${index === currentIndex ? "opacity-100" : "opacity-0"
+                            }`}
+                    />
+                ))}
             </section>
 
             <section className="bg-white py-12 px-6 md:px-16">
