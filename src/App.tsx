@@ -8,8 +8,8 @@ import {
   Route
 } from "react-router-dom";
 import Lineup  from './Components/Lineup';
-import TalentManagement from './Components/TalentManagment';
-import StrategicConsulting from './Components/StrategicConsulting';
+import About from './Components/About';
+
 
 function App() {
   return (
@@ -20,8 +20,7 @@ function App() {
         <Routes>
           <Route path='/' element={<Home/>}/>
           <Route path='/lineup' element={<Lineup/>}/>
-          <Route path='/talentmanagement' element={<TalentManagement/>}/>
-          <Route path='/strategicconsulting' element={<StrategicConsulting/>}/>
+          <Route path='/about' element={<About/>}/>
         </Routes>
       
       <Footer/>

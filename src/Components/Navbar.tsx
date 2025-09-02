@@ -14,18 +14,15 @@ const Navbar = ({ onClick }: { onClick?: () => void }) => {
 
   return (
     <div className="bg-white/80 shadow-md fixed top-0 left-0 right-0 z-50">
-      <div className="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
+      <div className="max-w-7xl mx-auto px-1 py-4 flex items-center justify-between">
         
         {/* Logo */}
         <Link to="/" onClick={onClick} className="flex items-center space-x-2">
           <img src={everestlogo} alt="Logo" className="h-20 m-0" />
-          <div className="text-xl font-semibold text-gray-800">
-            {/* <x */}
-          </div>
         </Link>
 
         {/* Desktop Nav */}
-        <div className="space-x-8 text-gray-700 font-medium hidden md:flex">
+        <div className="space-x-8 text-gray-700 ml-45 font-medium hidden md:flex">
           <NavLinks/>
         </div>
 
