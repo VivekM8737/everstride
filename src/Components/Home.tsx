@@ -40,10 +40,10 @@ const Home = () => {
                                 EVERSTRIDE
                             </h2>
                             <p className="text-gray-700 leading-relaxed text-justify">
-                                As one of the leading sport management agencies in athletics we aspire to push our
-                                sport forward. It’s in our DNA. Whether it’s through elite athlete management,
-                                event organization or sport marketing projects, we strive for innovation and
-                                progression.
+                                Everstride is an innovative sports consultancy helping athletes grow, companies build impact, and organizations bring professionalism into sport.
+                            </p>
+                            <p className="text-gray-700 leading-relaxed text-justify mt-4">
+                                Through athlete management, corporate sports events, and legal advisory, we deliver end-to-end solutions that make Indian sport more structured, transparent and future-ready.
                             </p>
                         </div>
                     </div>

@@ -16,7 +16,6 @@ const Footer = () => {
 
                             {/* Contact Info */}
                             <div className="mt-6">
-                                <p className="text-sm">📞</p>
                                 <p className="text-sm">✉️ admin@everstride.in</p>
                                 <p className="text-sm">📍 503, MVL iPark, Chander Nagar, Sector 15, Gurugram, Haryana 122001</p>
                                 <div className="flex space-x-4 mt-4">
