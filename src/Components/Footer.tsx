@@ -11,18 +11,14 @@ const Footer = () => {
                     <div className="md:w-1/2 md:pr-8 flex items-center">
                         <div>
                             {/* Brand Info */}
-                            <h2 className="text-2xl font-bold mb-4">Everstride</h2>
-                            <p className="text-sm leading-relaxed mb-6">
-                                We are committed to empowering athletes, companies, and communities
-                                through sports by providing end-to-end solutions in talent
-                                management, strategic consulting, and legal services.
-                            </p>
+                            <h2 className="text-2xl font-bold mb-4"> Everstride Sports & Talent Management Pvt Ltd</h2>
+                        
 
                             {/* Contact Info */}
                             <div className="mt-6">
-                                <p className="text-sm">📍 Delhi, India</p>
                                 <p className="text-sm">📞</p>
-                                <p className="text-sm">✉️ everstride@gmail.com</p>
+                                <p className="text-sm">✉️ admin@everstride.in</p>
+                                <p className="text-sm">📍 503, MVL iPark, Chander Nagar, Sector 15, Gurugram, Haryana 122001</p>
                                 <div className="flex space-x-4 mt-4">
                                     <SocialIcons />
                                 </div>
