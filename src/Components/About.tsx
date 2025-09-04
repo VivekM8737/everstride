@@ -5,10 +5,10 @@ export default function About() {
       <div className="bg-gradient-to-r from-blue-900 via-blue-800 to-blue-700 text-white py-30 px-6 md:px-20">
         <h1 className="text-4xl md:text-5xl font-bold mb-4 text-center">About Us</h1>
         <p className="max-w-5xl mx-auto text-lg text-center">
-          At Everstride, our role is to advise companies, foundations and organizations on how to grow through sport. We act as trusted advisors, helping you design strategies that add real value and constantly innovate in the way sports is used for business and community impact.
+          At Everstride, we manage and develop promising athletes and advise companies, foundations and organizations on how to grow through sport. Our work spans both sides of the sporting ecosystem helping talent build structured careers and enabling organizations to create innovative strategies that deliver real impact.
         </p>
         <p className="max-w-5xl mx-auto text-lg text-center mt-4">
-          Our work combines strategic advisory, community and corporate sports programs, and specialized legal support — ensuring that every initiative we design is practical, professional, and future-ready.
+          We bring together talent management, strategic advisory, community and corporate sports programs, and specialized legal support ensuring that every initiative we design is practical, professional, and future-ready.
 
         </p>
       </div>
