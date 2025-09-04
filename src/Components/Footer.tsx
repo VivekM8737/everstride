@@ -21,7 +21,7 @@ const Footer = () => {
                             {/* Contact Info */}
                             <div className="mt-6">
                                 <p className="text-sm">📍 Delhi, India</p>
-                                <p className="text-sm">📞 +91 98765 43210</p>
+                                <p className="text-sm">📞</p>
                                 <p className="text-sm">✉️ everstride@gmail.com</p>
                                 <div className="flex space-x-4 mt-4">
                                     <SocialIcons />
