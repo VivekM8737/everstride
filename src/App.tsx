@@ -9,6 +9,7 @@ import {
 } from "react-router-dom";
 import Lineup  from './Components/Lineup';
 import About from './Components/About';
+import Services from './Components/Services';
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
         <Routes>
           <Route path='/' element={<Home/>}/>
           <Route path='/lineup' element={<Lineup/>}/>
+          <Route path='/services' element={<Services/>}/>
           <Route path='/about' element={<About/>}/>
         </Routes>
       

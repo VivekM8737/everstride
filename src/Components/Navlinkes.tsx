@@ -17,13 +17,13 @@ export default function NavLinks({ onClick }: { onClick?: () => void }) {
         Home
       </NavLink>
 
-      {/* <NavLink
+      <NavLink
         onClick={onClick}
-        to="/lineup"
+        to="/services"
         className={navLinkClass}
       >
-        Lineup
-      </NavLink> */}
+        Services
+      </NavLink>
       <NavLink onClick={onClick} to="/about" className={navLinkClass}>
         About
       </NavLink>
