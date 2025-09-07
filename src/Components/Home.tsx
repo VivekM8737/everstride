@@ -30,11 +30,11 @@ const Home = () => {
                 ))}
             </section> */}
 
-            <section className="bg-white py-30 px-6 md:px-16">
-                <h2 className="text-2xl font-semibold text-blue-900 mb-4 text-center">
+            <section className=" bg-white py-30 px-6 md:px-16">
+                <h2 className="text-2xl  font-semibold text-blue-900 mb-4 text-center">
                     EVERSTRIDE
                 </h2>
-                <div className=" mx-auto flex flex-col md:flex-row md:divide-x divide-gray-300">
+                <div className="px-6 md:px-20  mx-auto flex flex-col md:flex-row md:divide-x divide-gray-300">
 
                     {/* Left Column */}
                     <div className="md:w-1/2 md:pr-8 flex items-center">

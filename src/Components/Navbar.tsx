@@ -27,9 +27,6 @@ const Navbar = ({ onClick }: { onClick?: () => void }) => {
         </div>
 
         {/* Social Icons */}
-         <div className="hidden md:flex">
-          <SocialIcons />
-        </div>
 
         {/* Mobile Hamburger */}
         <button
