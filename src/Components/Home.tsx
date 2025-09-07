@@ -30,8 +30,36 @@ const Home = () => {
                 ))}
             </section> */}
 
+            <section className="bg-white py-30 px-6 md:px-16">
+                <div className="max-w-6xl mx-auto flex flex-col md:flex-row md:divide-x divide-gray-300">
 
-            <section className="bg-blue-100  py-23 px-6 md:px-16">
+                    {/* Left Column */}
+                    <div className="md:w-1/2 md:pr-8 flex items-center">
+                        <div>
+                            <h2 className="text-2xl font-semibold text-blue-900 mb-4 text-center md:text-left">
+                                EVERSTRIDE
+                            </h2>
+                            <p className="text-gray-700 leading-relaxed text-justify">
+                                Everstride is an innovative sports consultancy helping athletes grow, companies build impact, and organizations bring professionalism into sport.
+                            </p>
+                            <p className="text-gray-700 leading-relaxed text-justify mt-4">
+                                Through athlete management, corporate sports events, and legal advisory, we deliver end-to-end solutions that make Indian sport more structured, transparent and future-ready.
+                            </p>
+                        </div>
+                    </div>
+
+                    {/* Right Column */}
+                    <div className="md:w-1/2 md:pl-8 mt-8 md:mt-0 flex items-center">
+                        <p className="text-gray-700 leading-relaxed text-justify">
+                            To achieve this, we work together with the best athletes and world-class partners.{" "}
+                            <span className="font-semibold text-blue-900">
+                                Together we are #TeamEverstride.
+                            </span>
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <section className="bg-blue-100  py-1 px-6 md:px-16">
                 <div className="py-8 px-6 md:px-20">
                     <h2 className="text-3xl font-semibold text-center text-blue-900 mb-12">
                         Our Core Areas
@@ -98,35 +126,7 @@ const Home = () => {
                 </div>
 
             </section>
-            <section className="bg-white py-12 px-6 md:px-16">
-                <div className="max-w-6xl mx-auto flex flex-col md:flex-row md:divide-x divide-gray-300">
 
-                    {/* Left Column */}
-                    <div className="md:w-1/2 md:pr-8 flex items-center">
-                        <div>
-                            <h2 className="text-2xl font-semibold text-blue-900 mb-4 text-center md:text-left">
-                                EVERSTRIDE
-                            </h2>
-                            <p className="text-gray-700 leading-relaxed text-justify">
-                                Everstride is an innovative sports consultancy helping athletes grow, companies build impact, and organizations bring professionalism into sport.
-                            </p>
-                            <p className="text-gray-700 leading-relaxed text-justify mt-4">
-                                Through athlete management, corporate sports events, and legal advisory, we deliver end-to-end solutions that make Indian sport more structured, transparent and future-ready.
-                            </p>
-                        </div>
-                    </div>
-
-                    {/* Right Column */}
-                    <div className="md:w-1/2 md:pl-8 mt-8 md:mt-0 flex items-center">
-                        <p className="text-gray-700 leading-relaxed text-justify">
-                            To achieve this, we work together with the best athletes and world-class partners.{" "}
-                            <span className="font-semibold text-blue-900">
-                                Together we are #TeamEverstride.
-                            </span>
-                        </p>
-                    </div>
-                </div>
-            </section>
         </>
     )
 }

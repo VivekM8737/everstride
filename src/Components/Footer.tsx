@@ -4,7 +4,7 @@ import SocialIcons from "./Socialicons";
 const Footer = () => {
     return (
         <>
-            <footer className="w-full h-170 bg-blue-300 py-10">
+            <footer className="w-full bg-blue-300 py-10">
                 <div className="max-w-7xl mx-auto flex flex-col md:flex-row md:divide-x divide-gray-300">
 
                     {/* Left Column */}
