@@ -18,8 +18,9 @@ const Footer = () => {
                             <div className="mt-6">
                                 <p className="text-sm">✉️ admin@everstride.in</p>
                                 <p className="text-sm">📍 503, MVL iPark, Chander Nagar, Sector 15, Gurugram, Haryana 122001</p>
-                                <div className="flex space-x-4 mt-4">
+                                <div className="space-x-4 mt-4">
                                     <SocialIcons />
+                                    <p className="w-full mt-2">Everstride.in Copyright © 2025 Everstride Sports and Talent Management Pvt. Ltd. All rights reserved</p>
                                 </div>
                             </div>
                         </div>
