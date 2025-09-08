@@ -1,5 +1,5 @@
 // SocialIcons.tsx
-import {FaInstagram, FaLinkedinIn, FaTwitter, FaYoutube, FaEmail } from "./react-icons/SocialLinks"; 
+import {FaInstagram, FaLinkedinIn, FaTwitter, FaEmail } from "./react-icons/SocialLinks"; 
 // import { HiOutlineMail } from "react-icons/hi";
 
 export default function SocialIcons({ className = "" }: { className?: string }) {
@@ -8,7 +8,6 @@ export default function SocialIcons({ className = "" }: { className?: string }) 
       <FaInstagram />
       <FaTwitter />
       <FaLinkedinIn />
-      <FaYoutube />
       <FaEmail />
       {/* <HiOutlineMail /> */}
     </div>

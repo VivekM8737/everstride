@@ -101,7 +101,7 @@ const Home = () => {
                             </p>
 
                             <p className="text-gray-700 text-sm mb-1">
-                                •	Carrier Roadmap
+                                •	Career Roadmap
                             </p>
                             <p className="text-gray-700 text-sm mb-1">
                                 •	Sponsorships & Endorsements
