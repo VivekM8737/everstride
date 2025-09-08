@@ -44,10 +44,6 @@ export default function Services() {
                             •	Run corporate sports events that build stronger teams and energize employees
 
                         </p>
-                        <p className="text-gray-700 text-m mb-1">
-                            •	Organize inclusive programs such as girls in sport, school leagues, and rural outreach
-
-                        </p>
 
                     </div>
 
