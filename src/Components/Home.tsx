@@ -50,12 +50,12 @@ const Home = () => {
 
                     {/* Right Column */}
                     <div className="md:w-1/2 md:pl-8 mt-8 md:mt-0 flex items-center">
-                        <p className="text-gray-700 leading-relaxed text-justify">
+                        {/* <p className="text-gray-700 leading-relaxed text-justify">
                             To achieve this, we work together with the best athletes and world-class partners.{" "}
                             <span className="font-semibold text-blue-900">
                                 Together we are #TeamEverstride.
                             </span>
-                        </p>
+                        </p> */}
                     </div>
                 </div>
             </section>
